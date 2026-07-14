@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Dheeraj Yenigalla",
+  "github": "YENIGALLADHEERAJ",
+  "lab1_scenario": "A",
+  "lab1_prompt": "Act as a Senior Samsung Care+ Escalation Specialist\nDraft a reply that resolves it without promising a refund.\nContext: A customer's 3rd Galaxy Watch battery complaint this month, still under warranty.\nConstraints: Do not mention or promise a refund under any circumstances. Keep the response under 150 words. Offer an expedited, prepaid priority diagnostic and repair.\nTone: Empathetic, highly professional, and solution-oriented.\nOutput format: Customer service email with a clear subject line and sign-off.",
+  "lab1_output_met_constraints": true,
+  "lab1_extra_scenarios_done": 0,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "4,299 units,Yes",
+  "lab2_cot_prompt": "Calculate the final number of available Galaxy Buds units. Work through this one step at a time: 1. Subtract the morning shipment (850) from the starting inventory (4200). 2. Calculate the 6% quality hold based ONLY on the remaining stock from step 1. 3. Subtract the hold amount from the remaining stock. 4. Add the afternoon restock (1150). Show each step clearly, then state the final answer.",
+  "lab2_cot_output_summary": "The model correctly showed its work step-by-step. It subtracted 850 to get 3,350, accurately calculated 6% of 3,350 as 201, subtracted the hold, and added the 1,150 restock to reliably arrive at 4,299 available units.",
+  "better_approach": "cot",
+  "stretch_done": true,
+  "stretch_react_prompt": "Calculate the final inventory. Stop and output \"[CALCULATOR NEEDED]\" before calculating the 6% quality hold so a precise external tool can be used rather than risking an LLM math hallucination",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-14T09:42:31.451Z"
+}
