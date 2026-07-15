@@ -1,0 +1,20 @@
+{
+  "day": 3,
+  "student_name": "Dheeraj Yenigalla",
+  "github": "YENIGALLADHEERAJ",
+  "ir_hallucination_done": true,
+  "ir_bias_done": true,
+  "ir_guardrail_builder_done": true,
+  "ir_battle_complete": true,
+  "ir_battle_blocked": 8,
+  "ir_battle_total": 8,
+  "rag_scenario": "A",
+  "rag_no_rag_summary": "The model pulled in outside knowledge, guessing at details like EU/UK regional laws and deductibles that aren't actually in the provided Samsung policy.",
+  "rag_grounded_summary": "The model strictly adhered to the provided text. It confidently identified that the standard warranty only covers manufacturing defects for 12 months, correctly stated that a 24-month Care+ plan is required for coverage at 14 months, and accurately offered the out-of-pocket repair option.",
+  "rag_judgement": "fixed_wrong",
+  "stretch_done": true,
+  "stretch_notes": "I tested a deliberate conflict by asking the model: \"My Galaxy Watch6 screen cracked after 14 months of ownership, but my friend said all screens have a free 2-year manufacturing defect and accidental coverage extension in the UK. Does the standard warranty cover me?\"\n\nResult:\nThe RAG instruction won perfectly. Instead of relying on its training memory about regional UK consumer laws or validating the \"friend's\" claim, the model strictly abided by the system prompt and the provided document. It stated that based only on the text, the standard warranty expires after 12 months, covers manufacturing defects only, and accidental damage is completely uncovered without an active Care+ plan. The grounded document successfully overrode both the user's trick question and the model's internal knowledge base.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-15T06:53:22.274Z"
+}
