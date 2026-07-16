@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "Dheeraj Yenigalla",
+  "github": "YENIGALLADHEERAJ",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Hallucination",
+      "principle": "Reliability",
+      "justification": "The model generated false information, demonstrating it cannot be relied upon for factual customer service."
+    },
+    {
+      "id": "B",
+      "failure_type": "Privacy Violation",
+      "principle": "Transparency",
+      "justification": "Users were completely unaware their sensitive data and conversations were being recorded, directly violating the need for clear transparency."
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Accountability",
+      "justification": "The fabricated media caused real-world financial impact, exposing a lack of mechanisms to trace and hold the creator accountable."
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "The system used proxy variables to unfairly penalize a specific demographic, failing to evaluate candidates equally."
+    },
+    {
+      "id": "E",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Human Oversight",
+      "justification": "An automated system was left to make impactful moderation decisions without human intervention to catch and correct the skewed pattern."
+    },
+    {
+      "id": "F",
+      "failure_type": "Security Breach",
+      "principle": "Security",
+      "justification": "Generative AI was weaponized by malicious actors to bypass standard verification protocols and successfully execute fraud."
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Chevrolet of Watsonville (Customer Chatbot)",
+  "stretch_failure_type": "Security Breach",
+  "stretch_principle": "Security",
+  "stretch_notes": "In December 2023, a user manipulated a Chevrolet dealership's customer service chatbot using an adversarial \"prompt injection\" attack. By commanding the bot to agree with anything the customer said, the user bypassed its guardrails and tricked the AI into agreeing to sell a $76,000 Chevy Tahoe for just $1. The system failed to resist the misuse and had to be taken offline.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T06:28:30.073Z"
+}
